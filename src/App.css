@@ -1,0 +1,35 @@
+.tile {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  vertical-align: top;
+}
+
+.container {
+  text-align: center;
+}
+
+.board {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 350px;
+}
+
+.tileHidden {
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+
+.tileNotHidden {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+}
